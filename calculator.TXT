@@ -1,0 +1,60 @@
+<!-- <html>
+<head>
+    <meta charset=utf-8 />
+    <title>
+        Interactive Calculator
+    </title>
+    <style type="text/css">
+    body {margin: 30px;}
+    </style>
+</head>
+<body>
+    <form>
+        1st Number : <input type="text" id="First Number"/><br>
+        2st Number : <input type="text" id="Second Number"/><br>
+     
+    </form>
+    <form>
+        <input type="button" onclick="Addition()" value="Addition" />
+        <input type="button" onclick="Substraction()" value="Substraction" />
+        <input type="button" onclick="Mul()" value="Multiply" />
+        <input type="button" onclick="Division()" value="Division" />
+         
+    </form>
+    
+   <p>
+        The Result is:- 
+        <span id="Result"></span>
+    </p>
+</body>
+</html>
+
+<script type="text/javascript"> 
+
+function Addition(){ 
+        num1 = document.getElementById("First Number").value;
+        num2 = document.getElementById("Second Number").value;
+        Result = document.getElementById("Result").innerHTML = parseInt(num1)+parseInt(num2);
+    }
+   
+    function Substraction(){ 
+        num1 = document.getElementById("First Number").value;
+        num2 = document.getElementById("Second Number").value;
+        Result = document.getElementById("Result").innerHTML = num1-num2;
+    }
+
+    function Mul(){
+        num1 = document.getElementById("First Number").value;
+        num2 = document.getElementById("Second Number").value;
+        var Result = num1 * num2 
+        document.getElementById("Result").innerHTML = Result;
+    }
+
+    function Division(){
+        num1 = document.getElementById("First Number").value;
+        num2 = document.getElementById("Second Number").value;
+        Result = document.getElementById("Result").innerHTML = num1 / num2;
+    }
+
+
+</script> -->
